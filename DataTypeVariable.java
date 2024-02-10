@@ -1,4 +1,4 @@
-public class Hello{
+public class DataTypeVariable{
     public static void main(String[] args){
         System.out.println("Hello Java");
         //在終端機印出各種型態的資料
