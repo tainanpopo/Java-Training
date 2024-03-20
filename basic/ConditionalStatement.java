@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class ConditionalStatement{
     public static void main(String[] args) {
         // //使用標準輸入（從終端機輸入資料）
-        // Scanner s = new Scanner(System.in);
-        // System.out.println("請輸入一個整數");
-        // int x = s.nextInt();
-        // System.out.println(x * 10);
+        Scanner s = new Scanner(System.in);
+        System.out.println("請輸入一個整數");
+        int x = s.nextInt();
+        System.out.println(x * 10);
         
         // if 判斷式
         // Scanner s = new Scanner(System.in);
@@ -43,6 +43,6 @@ public class ConditionalStatement{
         //         System.out.println("不支援的運算符號");
         //         break;
         // }
-        // s.close(); // 關閉
+        s.close(); // 關閉
     }
 }
